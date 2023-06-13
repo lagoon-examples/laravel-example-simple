@@ -1,0 +1,4 @@
+persistentStorageDirectory:
+  answer: false
+  value: /app/storage/
+projectName: laravel10
