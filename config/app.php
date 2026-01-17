@@ -97,7 +97,8 @@ return [
 
     'cipher' => 'AES-256-CBC',
 
-    'key' => env('APP_KEY'),
+    // TODO: Generate a new key and read from environment variable
+    'key' => env('APP_KEY', 'base64:iB4a/YrrHLfAnTTqnlezb1eMW0EM1oglmo3vh1WSvU8='),
 
     'previous_keys' => [
         ...array_filter(
